@@ -1,0 +1,5 @@
+#!/bin/bash
+
+printf "Hi"
+sleep 1
+printf "\r\033[KBye\n" 

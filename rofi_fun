@@ -1,0 +1,5 @@
+#!/bin/bash
+
+selected=`echo -e "Hi\nbye" | rofi -dmenu -p "say: " -theme gruvbox-dark-soft`
+
+echo "You picked: $selected"
